@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notes_List_Fragment">
+
+    <fragment
+        android:id="@+id/add_Notes_Fragment"
+        android:name="com.example.notes_taskapp.Add_Notes_Fragment"
+        android:label="fragment_add__notes_"
+        tools:layout="@layout/fragment_add__notes_" />
+    <fragment
+        android:id="@+id/add_Task_Fragment"
+        android:name="com.example.notes_taskapp.Add_Task_Fragment"
+        android:label="fragment_add__task_"
+        tools:layout="@layout/fragment_add__task_" />
+    <fragment
+        android:id="@+id/notes_List_Fragment"
+        android:name="com.example.notes_taskapp.Notes_List_Fragment"
+        android:label="fragment_notes__list_"
+        tools:layout="@layout/fragment_notes__list_" />
+    <fragment
+        android:id="@+id/task_List_Fragment"
+        android:name="com.example.notes_taskapp.Task_List_Fragment"
+        android:label="fragment_task__list_"
+        tools:layout="@layout/fragment_task__list_" />
+
+</navigation>

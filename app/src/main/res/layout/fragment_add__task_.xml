@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".Add_Task_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_task"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/baseline_add_task_24"
+        android:paddingStart="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveTask"
+        android:layout_marginTop="30dp"
+        android:text="@string/save_task"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
